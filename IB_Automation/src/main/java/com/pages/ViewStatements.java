@@ -1,9 +1,12 @@
 package com.pages;
 
+import com.utilities.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
-public class ViewStatements {
+public class ViewStatements extends TestBase {
 
     @FindBy(xpath = "//div[@class='des-m-sat-xx-account-tile need-javascript ManageMyAccountsAnchor1']/div/div/div/dl/dd[1]")
     WebElement accountName;
@@ -34,4 +37,8 @@ public class ViewStatements {
 
     @FindBy(xpath = "//a[text()='Load more transactions']")
     WebElement loadMoreTransactions;
+
+    public ViewStatements(){
+        PageFactory.initElements(webDriver, this);
+    }
 }

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f152550-be3f-4c0e-92cd-1e581da65581" name="Default Changelist" comment="" />
+    <list default="true" id="1f152550-be3f-4c0e-92cd-1e581da65581" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ison_output/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Features/LoginPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Runner/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/StepDefinitions/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/AOVPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/AOVPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/LoginPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/MIPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/MIPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/SearchStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/SearchStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pages/ViewStatements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/ViewStatements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utilities/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utilities/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xpaths/xpathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xpaths/xpathFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LloydsIB_Automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/AOVPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/AOVPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/MIPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/SearchStatements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/SearchStatements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pages/ViewStatements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pages/ViewStatements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/utilities/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/utilities/TestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/xpaths/xpathFinder.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,15 +55,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1UWnyykFX1CE3CcyhQudDT8SIxj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.xpathFinder">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="TestBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.utilities.TestBase" />
       <module name="LloydsIB_Automation" />
@@ -46,7 +90,7 @@
     </configuration>
     <configuration name="xpathFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xpaths.xpathFinder" />
-      <module name="LloydsIB_Automation" />
+      <module name="IB_Automation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xpaths.*" />
@@ -57,6 +101,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="IB_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Runner" />
+      <option name="MAIN_CLASS_NAME" value="com.Runner.TestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestBase" />
+      <item itemvalue="Application.xpathFinder" />
+      <item itemvalue="JUnit.TestRunner" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.xpathFinder" />
@@ -89,35 +155,55 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1575497277877">
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575637770999">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1575637770999" />
+    <state x="457" y="229" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575637156586">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="457" y="229" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.825@0.23.1440.825" timestamp="1575637156586" />
+    <state x="297" y="365" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575637098042">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="297" y="365" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.825@0.23.1440.825" timestamp="1575637098042" />
+    <state x="492" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1575636715376">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="492" y="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.825@0.23.1440.825" timestamp="1575636715376" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1575638018605">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1575494705583" />
     <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1575496935100" />
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1575497277877" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1575497277876">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1575638018605" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1575638018605">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1575494705582" />
     <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1575496935100" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1575497277876" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1575497277876">
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1575638018605" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1575638018604">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1575494705581" />
     <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1575496935099" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1575497277876" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1575497277877">
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1575638018604" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1575638018605">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1575494705582" />
     <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1575496935100" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1575497277877" />
-    <state x="258" y="98" key="Maven.ArtifactSearchDialog" timestamp="1575494810025">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1575638018605" />
+    <state x="258" y="98" key="Maven.ArtifactSearchDialog" timestamp="1575636571011">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="258" y="98" key="Maven.ArtifactSearchDialog/0.23.1440.823@0.23.1440.823" timestamp="1575494810025" />
+    <state x="258" y="98" key="Maven.ArtifactSearchDialog/0.23.1440.825@0.23.1440.825" timestamp="1575636571011" />
     <state x="376" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1575573442485">
       <screen x="0" y="23" width="1440" height="825" />
     </state>

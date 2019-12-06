@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="LloydsIB_Automation" />
+        <module name="IB_Automation" />
       </profile>
     </annotationProcessing>
   </component>

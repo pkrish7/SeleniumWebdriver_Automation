@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Test that the user is able to login successfully",
+        "description": "",
+        "id": "test-login-functionality-of-ib;test-that-the-user-is-able-to-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I am on login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I enter \"pkrish777\" and \"wel127come\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "click on continue button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I should be landed on MIPage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login functionality of IB",
+    "description": "",
+    "id": "test-login-functionality-of-ib",
+    "keyword": "Feature",
+    "uri": "/Users/preethykrishnamoorthy/Documents/Selenium/SeleniumWebdriver_Automation/IB_Automation/src/main/java/com/Features/LoginPage.feature"
+  }
+]

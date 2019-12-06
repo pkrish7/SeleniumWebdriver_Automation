@@ -1,3 +1,4 @@
+/*
 package xpaths;
 
 import org.openqa.selenium.By;
@@ -40,3 +41,4 @@ public static void main(String[] args) throws InterruptedException {
     webDriver.quit();
 }
 }
+*/

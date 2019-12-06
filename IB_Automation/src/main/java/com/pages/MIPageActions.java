@@ -1,10 +1,11 @@
 package com.pages;
 
+import com.utilities.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
-public class MIPage {
-
+public class MIPageActions extends TestBase {
     @FindBy(xpath = "//select[@id='frmentermemorableinformation1:strEnterMemorableInformation_memInfo1']")
     WebElement miDropDown1;
 
@@ -28,4 +29,10 @@ public class MIPage {
 
     @FindBy(xpath = "//input[@id = 'frmentermemorableinformation1:btnContinue']")
     WebElement continueButtonMIPage;
+
+    public MIPageActions()
+    {
+        PageFactory.initElements(webDriver, this);
+    }
+
 }

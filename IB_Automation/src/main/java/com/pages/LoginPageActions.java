@@ -5,48 +5,47 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends TestBase {
+public class LoginPageActions extends TestBase {
 
     @FindBy(id = "frmLogin:strCustomerLogin_userID")
-    WebElement userID;
+    public WebElement userID;
 
     @FindBy(id = "frmLogin:strCustomerLogin_pwd")
-    WebElement password;
+    public WebElement password;
 
     @FindBy(name = "frmLogin:btnLogin1")
-    WebElement continueButtonLoginPage;
+    public WebElement continueButtonLoginPage;
 
     //Register Online
     @FindBy(xpath = "//a[@title='register online']")
-    WebElement registerOnline;
+    public WebElement registerOnline;
 
     //Remember my User ID
     @FindBy(xpath = "//label[text()='Remember my User ID']")
-    WebElement rememberMyUserID;
+    public WebElement rememberMyUserID;
 
     @FindBy(xpath = "//input[@id = 'frmLogin:loginRemember' and @type='checkbox']")
-    WebElement rememberMyUserIDCheckBox;
+    public WebElement rememberMyUserIDCheckBox;
 
     //Forgotten your logon details?
     @FindBy(xpath = "//a[@id = 'frmLogin:lkFrgtLogonLinkDMC' and text() = 'Forgotten your logon details?']")
-    WebElement forgottenYourLogonDetails;
+    public WebElement forgottenYourLogonDetails;
 
     //Lloyds Bank image
     @FindBy(xpath = "//img[@alt='Lloyds Bank']")
-    WebElement lloydsBankImage;
+    public WebElement lloydsBankImage;
 
-    //Presence of WebElement Mobile
+    //WebElement Mobile
     @FindBy(xpath = "//a[text()='Mobile']")
-    WebElement mobile;
+    public WebElement mobile;
 
     //Initializing the page objects
-    public LoginPage(){
+    public LoginPageActions(){
         PageFactory.initElements(webDriver, this);
     }
 
     //Actions
     public String validateLoginPageTitle(){
-        String loginPageTitle = "Lloyds Bank - Welcome to Internet Banking";
         return webDriver.getTitle();
     }
 
@@ -55,5 +54,9 @@ public class LoginPage extends TestBase {
         password.sendKeys(properties.getProperty("password"));
         continueButtonLoginPage.click();
         return new AOVPage();
+    }
+
+    public String validateMIPageTitle(){
+        return webDriver.getTitle();
     }
 }
